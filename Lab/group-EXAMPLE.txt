@@ -1,0 +1,61 @@
+SELECT Department_id, MAX(Salary) from employees
+GROUP BY  Department_id
+ORDER BY Department_id;
+
+semester , subjects, students
+
+11 players from different countri
+
+50 students from different department of different colleges take part in a competition
+
+college_id	|	departments	|	NAME		|	score
+
+	1	|	BS-DS		|	USMAN		|	9
+	1	|	BS-DS		|	ALI		|	10
+	1	|	BS-DS		|	UMAR		|	8
+	2	|	BS-CS		|	ISMAIL		|	7
+	2	|	BS-CS		|	aHMAD		|	9
+	3	|	BS-SE		|	UMAR AHMAD	|	10
+	2	|	BS-CS		|	IRFAN		|	9
+
+
+SELECT department_id, MAX(salary)
+FROM employees
+GROUP BY department_id
+Having MAX(salary) >10000;
+
+
+Sir in this query, 
+We create groups of job_id, 
+then find the sum of those groups,
+and restricted the output by using the having clause.. so the maximum salary
+will be shown of those groups who have more tha 10000.
+
+
+
+
+baby you light up my world like nobody else
+the way that you flip your hair gets me overwhelmed
+but when you smile at the ground it aint hard to telllllllll
+you dont knowwwwwwww oa ohhhhhhhhh
+you dont know you're beautifullllll
+if only you saw what i can seee
+
+youll understand why i want you so desperatelyy
+
+right now m lookin at you and i cant believeeeeee
+
+you dont knowwww oa ohhhhhhhhhhh
+you dont know you're beautifullllllllllll
+thats what makess youuu beautifullllllllllllllllllll
+
+
+your handss fit in minee like its madee just forr meee
+but bear this in mind it was meant to bee
+and m joing up the dotss, with the freckles on your cheeks
+nd it all makess sense to me
+1 pm 26th May 2021
+
+
+
+alter user scott account unlock;
